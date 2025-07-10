@@ -29,7 +29,7 @@ Sistem ini dirancang dengan pemisahan tugas yang jelas, di mana setiap agen memi
 
 <p align="center">
   <!-- GANTI URL_TO_YOUR_DIAGRAM.png DENGAN LINK MENTAH KE GAMBAR DIAGRAM ANDA DI GITHUB/FIGMA -->
-  <img src="URL_TO_YOUR_DIAGRAM.png" alt="Arsitektur Agen UrinaCare" width="800"/>
+  <img src="https://github.com/SyahrezaAdnanAlAzhar/urinacare-ai-agent/blob/main/Arsitektur_AI_Agent.png" alt="Arsitektur Agen UrinaCare" width="800"/>
 </p>
 
 - **Agents**: Tim yang terdiri dari `Lab Analyst`, `Medical Advisor`, dan `Admin Assistant`.
