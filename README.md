@@ -64,10 +64,10 @@ pip install -r requirements.txt
 ### 4. Configure Environment (Crucial Step)
 Create a file named `.env` in the project's root directory and fill it with your credentials. **NEVER** commit this file to Git.
 ```env
-# File: .env
-GOOGLE_API_KEY="AIzaSy...your-google-api-key"
-CV_MODEL_API_URL="https://your-cv-model.hf.space/analyze"
-APPOINTMENT_BACKEND_API_URL="https://your-main-backend.com/api/v1/appointments"
+# File: .env for example
+GOOGLE_API_KEY="key"
+CV_MODEL_API_URL="object-detection-api"
+APPOINTMENT_BACKEND_API_URL="appointment-be-api"
 ```
 
 ## ⚡ Quick Start
@@ -112,7 +112,6 @@ urinacare-ai-agent/
 ├── main_api.py             # FastAPI application entrypoint and endpoint definitions
 ├── tasks.py                # Defines all tasks to be executed by the agents
 ├── tools.py                # Implements all tools usable by the agents
-├── .env.example            # Example environment file (without values)
 ├── .gitignore
 ├── Dockerfile              # Configuration for application containerization
 └── requirements.txt        # List of Python dependencies
